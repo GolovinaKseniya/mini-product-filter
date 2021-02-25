@@ -1,0 +1,63 @@
+# ignore Editor files
+.idea
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+### WordPress template
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+wp-content/plugins/akismet/
+
+~*
+.*
+!.htaccess
+!.gitignore
+
+/license.txt
+/readme.html
+/sitemap.xml.gz
+
+package-lock.json
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.7z
+*.gz
+*.dmg
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.txt
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# other files
+error_log
+cgi-bin
+webstat/*
+_files
